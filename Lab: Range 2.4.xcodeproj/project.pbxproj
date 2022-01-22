@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1D5A8986279C8EB2004F367F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D5A8985279C8EB2004F367F /* main.cpp */; };
+		1D5A898D279C8ED3004F367F /* RangeTesting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D5A898C279C8ED3004F367F /* RangeTesting.cpp */; };
+		1D5A8990279C8F03004F367F /* Range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D5A898E279C8F03004F367F /* Range.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		1D5A8982279C8EB2004F367F /* Lab: Range 2.4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab: Range 2.4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5A8985279C8EB2004F367F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1D5A898C279C8ED3004F367F /* RangeTesting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RangeTesting.cpp; sourceTree = "<group>"; };
+		1D5A898E279C8F03004F367F /* Range.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Range.cpp; sourceTree = "<group>"; };
+		1D5A898F279C8F03004F367F /* Range.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Range.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				1D5A8985279C8EB2004F367F /* main.cpp */,
+				1D5A898C279C8ED3004F367F /* RangeTesting.cpp */,
+				1D5A898E279C8F03004F367F /* Range.cpp */,
+				1D5A898F279C8F03004F367F /* Range.hpp */,
 			);
 			path = "Lab: Range 2.4";
 			sourceTree = "<group>";
@@ -119,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5A898D279C8ED3004F367F /* RangeTesting.cpp in Sources */,
 				1D5A8986279C8EB2004F367F /* main.cpp in Sources */,
+				1D5A8990279C8F03004F367F /* Range.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
